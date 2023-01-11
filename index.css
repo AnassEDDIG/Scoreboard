@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+}
+
+.container {
+    margin: auto;
+    background: #1B244A;
+    display: flex;
+    justify-content: space-around;
+    height: 385px;
+    width: 575px;
+    left: -1996px;
+    top: -1135px;
+    border-radius: 0px;
+
+}
+.Home{
+    height: 120px;
+    width: 155px;
+    left: 82px;
+    top: 125px;
+    border-radius: 5px;
+}
+h3{
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+}
+.Hscore{
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+    background: #080001;
+    border-radius: 5px;
+
+}
+.Gscore{
+    width: 155px;
+    height: 120px;
+    left: 337px;
+    top: 125px;
+    background: #080001;
+    border-radius: 5px;
+}
+.Hpoints{
+    width: 160px;
+    height: 120px;
+    left: 100px;
+    top: 125px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+}
+.Gpoints{
+    width: 160px;
+    height: 120px;
+    left: 100px;
+    top: 125px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+    
+}
+.btnSet1{
+    margin: auto;
+    position: absolute;
+    width: 155px;
+    height: 45px;
+    left: 90x;
+    top: 271px;
+
+}
+button{
+    cursor: pointer;
+    background: #1B244A;
+    box-sizing: border-box;
+    width: 48px;
+    height: 44px;
+    left: 136px;
+    top: 271px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    
+}
+span{
+    width: 30px;
+    height: 26px;
+    left: 89px;
+    top: 280px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #9AABD8;
+}

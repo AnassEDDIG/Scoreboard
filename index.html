@@ -1,0 +1,37 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <style>
+            @import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+        </style>
+    </head>
+    <body>
+        <div class="container">
+                <div class="Home">
+                    <h3>HOME</h3>
+                    <div class="Hscore">
+                        <div class="Hpoints" id="H">0</div>
+                        <div class="btnSet1">
+                            <button onclick="add1()"><span>+1</span></button>
+                            <button onclick="add2()"><span>+2</span></button>
+                            <button onclick="add3()"><span>+3</span></button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3>GUEST</h3>
+                    <div  class="Gscore">
+                        <div class="Gpoints" id="G">
+                            0
+                        </div>
+                            <div class="btnSet1">
+                            <button onclick="add1G()"><span>+1</span></button>
+                            <button onclick="add2G()"><span>+2</span></button>
+                            <button onclick="add3G()"><span>+3</span></button>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        <script src="index.js"></script>
+    </body>
+</html>
